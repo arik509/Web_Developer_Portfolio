@@ -26,6 +26,14 @@
     padding: 18px 35px;
 }
 
+/* Header Styles */
+
+.header{
+    background-image: url('../images/developer.png') , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 
 
 /* Nav styles */
@@ -33,7 +41,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 230px;
 }
 
 .logo{
@@ -55,3 +63,47 @@ nav li a{
     font-size: 20px;
     text-decoration: none;
 }
+
+
+
+/* Banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px 0 230px;
+}
+
+.banner-content{
+    max-width: 585px;
+}
+
+.ban-greet{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.ban-myname{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.ban-des{
+    color: #757575;
+    font-size: 18px;
+}
+
+.banner-pro{
+    width: 584px;
+    height: 676px;
+}
+
+#ban-btn-02{
+    background-color: white;
+    border-color: #FD6E0A;
+    color: #FD6E0A;
+    border-style: solid;
+    margin-left: 30px;
+}
+
+
