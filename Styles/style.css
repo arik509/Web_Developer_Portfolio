@@ -177,4 +177,27 @@ main{
     color: #757575;
 }
 
+/* Resume Styles */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.resume-title{
+    text-align: center;
+}
+
+.resume-card-des{
+    color: #757575;
+}
+
+.btn-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
 
